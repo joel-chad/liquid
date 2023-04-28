@@ -9,13 +9,8 @@ const MainCarousel =()=> {
     initTE({ Carousel });
     })
     return (
-        <div
-            id="carouselExampleCaptions"
-            className="relative"
-            data-te-carousel-init
-            data-te-carousel-slide>
-            <div
-                className="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+        <div id="carouselExampleCaptions" className="relative" data-te-carousel-init data-te-carousel-slide>
+            <div className="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
                 data-te-carousel-indicators>
                 <button
                     type="button"
@@ -52,7 +47,7 @@ const MainCarousel =()=> {
                         alt="..." />
                     <div
                         className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                        <h5 className="text-xl">First slide label</h5>
+                        <h5 className="text-xl">Lorem ipsum</h5>
                         <p>
                             Some representative placeholder content for the first slide.
                         </p>
