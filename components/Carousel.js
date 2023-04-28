@@ -1,10 +1,8 @@
 "use client"
 import React, { useEffect } from "react";
 import userData from "../constants/data";
-import {
-    Carousel,
-    initTE,
-  } from "tw-elements";
+import "tw-elements/dist/css/tw-elements.min.css";
+import { Carousel, initTE } from "tw-elements";
 
 export default function Contact() {
     useEffect(()=>{

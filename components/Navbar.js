@@ -8,7 +8,7 @@ import Link from "next/link";
 
 function Navbar() {
     return ( 
-          <nav className="p-4 mb-12 flex justify-between">
+          <nav className="p-4 flex justify-between">
             <Link href='/'><h1 className="font-burtons sm:text-base hover:text-teal-200 text-xl">sitename</h1></Link>
             <ul className="flex items-center">
               {/* <li>
