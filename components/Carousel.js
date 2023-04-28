@@ -4,7 +4,7 @@ import userData from "../constants/data";
 import "tw-elements/dist/css/tw-elements.min.css";
 import { Carousel, initTE } from "tw-elements";
 
-export default function Contact() {
+const MainCarousel =()=> {
     useEffect(()=>{
     initTE({ Carousel });
     })
@@ -143,3 +143,5 @@ export default function Contact() {
         </div>
     );
 }
+
+export default MainCarousel
