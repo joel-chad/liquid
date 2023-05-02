@@ -9,7 +9,7 @@ export default function App() {
       <div className='h-1/5'>
         <Carousel/>
       </div>
-      <div className='text-center p-10'>
+      <div className='text-center'>
         <h1>Lorem Ipsum</h1>
       <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -3,12 +3,12 @@ import userData from "../constants/data";
 
 export default function Footer() {
   return (
-    <div className="dark:bg-cyan-300 bg-[#515151]">
+    <div className="dark:bg-cyan-300 bg-green-300">
       <div className="max-w-6xl mx-auto px-4 py-10 md:py-12">
         {/* <div className="h-0.5 w-full bg-white "></div> */}
         <div className="flex flex-col space-y-4 md:flex-row justify-between md:items-center mt-8">
           <div>
-            <p className="font-semibold">&copy; Joel Chadambuka. All Rights Reserved.</p>
+            <p className="font-semibold">&copy; GreenSales. All Rights Reserved.</p>
           </div>
           <div>
             {/* Support me by keeping this in the footer, please. :) */}

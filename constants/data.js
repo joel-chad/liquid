@@ -1,4 +1,4 @@
-// import code from "../public/code.png";
+import car from "../public/porsche.png";
 // import design from "../public/design.png";
 // import consulting from "../public/consulting.png";
 // import web1 from "../public/web1.png";
@@ -15,16 +15,17 @@ const userData = {
     name: "Joel Chadambuka",
     designation: "React Developer and Data Analyst",
     avatarUrl: "/my-avatar.png",
-    email: "joelchadambuka@gmail.com",
+    email: "enquiries@greensoft.com",
     phone: "+263 779941094",
     address: "Avondale West, Harare, Zimbabwe.",
-    // projects: [
-    //   {
-    //     id: 1,
-    //     title: "Car Rental",
-    //     link: "https://tailwindmasterkit.com",
-    //     imgUrl: web7,
-    //   },
+    projects: [
+      {
+        id: 1,
+        title: "Car",
+        // link: "https://tailwindmasterkit.com",
+        imgUrl: car,
+        description: "A very nice car"
+      },
     //   {
     //     id: 2,
     //     title: "Nike",
@@ -67,7 +68,7 @@ const userData = {
     //     link: "https://devmedium.vercel.app",
     //     imgUrl: web8,
     //   },
-    // ],
+    ],
     about: {
       title:
         "I'm a software developer that loves building products and web applications that impact millions of lives",

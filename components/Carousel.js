@@ -3,14 +3,17 @@ import React, { useEffect } from "react";
 import userData from "../constants/data";
 import "tw-elements/dist/css/tw-elements.min.css";
 import { Carousel, initTE } from "tw-elements";
+import car from '../public/porsche.png'
+import falls from '../public/falls.jpeg'
+import Image from "next/image";
 
 const MainCarousel =()=> {
     useEffect(()=>{
     initTE({ Carousel });
     })
     return (
-        <div id="carouselExampleCaptions" className="relative" data-te-carousel-init data-te-carousel-slide>
-            <div className="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+        <div id="carouselExampleCaptions" className="relative h-96 overflow-y-clip" data-te-carousel-init data-te-carousel-slide>
+            <div className="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] flex list-none justify-center p-0"
                 data-te-carousel-indicators>
                 <button
                     type="button"
@@ -41,12 +44,11 @@ const MainCarousel =()=> {
                     data-te-carousel-active
                     data-te-carousel-item
                     style={{backfaceVisibility: "hidden"}}>
-                    <img
-                        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
+                    <Image
+                        src={car}
                         className="block w-full"
                         alt="..." />
-                    <div
-                        className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                    <div className="absolute inset-x-[15%] bottom-44 hidden py-5 text-center text-white md:block">
                         <h5 className="text-xl">Lorem ipsum</h5>
                         <p>
                             Some representative placeholder content for the first slide.
@@ -57,12 +59,14 @@ const MainCarousel =()=> {
                     className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                     data-te-carousel-item
                     style={{backfaceVisibility: "hidden"}}>
-                    <img
-                        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
+                    <Image
+                        height={500}
+                        width={500}
+                        src={falls}
                         className="block w-full"
                         alt="..." />
                     <div
-                        className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        className="absolute inset-x-[15%] bottom-auto hidden py-5 text-center text-white md:block">
                         <h5 className="text-xl">Second slide label</h5>
                         <p>
                             Some representative placeholder content for the second slide.
@@ -74,7 +78,7 @@ const MainCarousel =()=> {
                     data-te-carousel-item
                     style={{backfaceVisibility: "hidden"}}>
                     <img
-                        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
+                        src={car}
                         className="block w-full"
                         alt="..." />
                     <div
