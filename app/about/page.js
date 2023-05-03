@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Accordion from '../../components/Accordion'
+import FAQ from '../../components/FAQ'
 
 export default function Home() {
   return (
@@ -47,7 +47,7 @@ export default function Home() {
             <div>
             <h2 className=' text-2xl font-semibold'>FAQ</h2>
 
-              <Accordion/>
+              <FAQ/>
             </div>
             </div>
           </main>
