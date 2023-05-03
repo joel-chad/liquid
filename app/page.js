@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import Tabs from '../components/Tabs'
+import PreviewCard from '@/components/PreviewCard';
 
 const Carousel = dynamic(() => import("../components/Carousel"), { ssr: false });
 
@@ -91,7 +92,7 @@ export default function App() {
     </div>
   </div>
 </section>
-        
+        <PreviewCard/>
        </main>
   )
 }
