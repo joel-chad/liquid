@@ -1,10 +1,11 @@
+'use client'
+import SignIn from '../../components/SignIn'
 
-export default function App() {
+export default function SignInPage() {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-center p-24">
-        <h1 className='font-semibold'>Sign In</h1>
-        <p>Client Sign In forms
-        </p>
+      <main className="flex pt-12 pb-8 flex-col items-center justify-center">
+        <SignIn/>
+       
       </main>
     )
   }

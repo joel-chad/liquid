@@ -1,13 +1,24 @@
 import ProjectCard from "@/components/ProjectCard";
+import Movie from '../../components/Card'
 
-export default function App() {
+export default async function App() {
+  const data = await fetch(
+    `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}`
+  )
+  const res = await data.json()
     return (
-      <main className="flex min-h-screen flex-col items-center justify-center p-24">
-        <h1 className='font-semibold'>Projects Page</h1>
-        <ProjectCard/>
-        {/* <p>List and describe current projects <br />
-          Bro Let the good times roll by Quincy Jones, Ray Charles and Stevie Wonder is a bop
-        </p> */}
-      </main>
+      <>
+      <div className="grid gap-16 grid-cols-fluid p-8">
+        {res.results.map((movie) => (
+          <Movie
+            key={movie.id}
+            id={movie.id}
+            title={movie.title}
+            poster_path={movie.poster_path}
+            release_date={movie.release_date}
+          />
+        ))}
+        </div>
+       </>
     )
   }
