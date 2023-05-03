@@ -5,12 +5,7 @@ import userData from "../constants/data";
 export default function Contact() {
   return (
     <section className="pb-12">
-      <div className="max-w-6xl mx-auto antialiased">
-        <h1 className=" text-5xl dark:text-white md:text-9xl font-bold  text-center md:text-left">
-          Contact
-        </h1>
-      </div>
-      <div className="relative z-10 rounded-md shadow-md bg-green-500 p-4 md:p-10 lg:p-20 max-w-6xl">
+      <div className="relative z-10 shadow-md bg-green-500 p-4 md:p-10 lg:p-20 max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -21,7 +16,7 @@ export default function Contact() {
                 Fill in the details and we&apos;ll get back to you as soon as we can.
               </p>
             </header>
-            <div className="icons-container inline-flex flex-col my-20">
+            <div className="icons-container inline-flex flex-col my-10">
               <div className="flex flex-row items-center space-x-6 rounded-md border border-green-500 hover:border hover:border-green-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
