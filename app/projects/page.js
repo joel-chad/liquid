@@ -8,7 +8,7 @@ export default async function App() {
   const res = await data.json()
     return (
       <>
-      <div className="grid gap-16 grid-cols-fluid p-8">
+      <div className="grid gap-8 grid-cols-fluid p-8">
         {res.results.map((movie) => (
           <Movie
             key={movie.id}
