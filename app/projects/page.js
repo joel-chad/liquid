@@ -2,6 +2,7 @@ import ProjectCard from "@/components/ProjectCard";
 import Movie from '../../components/Card'
 import SectionTitle from "@/components/SectionTitle";
 import Blog from "@/components/Blog";
+import PopupWidget from "@/components/PopupWidget";
 
 export default async function App() {
   const data = await fetch(
@@ -35,6 +36,7 @@ export default async function App() {
         ))}
         </div>
         <Blog/>
+        <PopupWidget/>
        </>
     )
   }

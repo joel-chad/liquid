@@ -3,6 +3,7 @@ import FAQ from '../../components/FAQ'
 import SectionTitle from '@/components/SectionTitle'
 import PreviewCard from '@/components/PreviewCard'
 import Blog from '@/components/Blog'
+import PopupWidget from '@/components/PopupWidget'
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
               <FAQ/>
           <Blog/>
             </div>
+            <PopupWidget/>
           </main>
   )
 }

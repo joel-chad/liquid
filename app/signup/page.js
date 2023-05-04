@@ -2,6 +2,7 @@
 import PersonalDetails from "@/components/PersonalDetails"
 import OtherDetails from "@/components/OtherDetails"
 import { useState } from "react"
+import PopupWidget from "@/components/PopupWidget"
 
 export default function SignUp() {
   const [step, setStep] = useState(1)
@@ -15,6 +16,7 @@ export default function SignUp() {
           <div className="flex p-2 lg:w-4/5 flex-row items-stretch justify-end">
             <button className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-green-600 hover:border-green-600" onClick={()=>setStep(2)}>Next</button>
           </div>
+          <PopupWidget/>
           </>
         }
       </main>
@@ -29,6 +31,7 @@ export default function SignUp() {
           <button className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-green-600 hover:border-green-600" onClick={()=>setStep(2)}>Next</button>
         </div>
         </>
+        <PopupWidget/>
         </main>
       )
       default:
