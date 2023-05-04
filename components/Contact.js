@@ -5,7 +5,7 @@ import userData from "../constants/data";
 export default function Contact() {
   return (
     <section className="pb-12">
-      <div className="relative z-10 shadow-md bg-green-500 p-4 md:p-10 lg:p-20 max-w-6xl">
+      <div className="relative z-10 shadow-md bg-green-300 p-4 md:p-10 lg:p-20 max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -17,7 +17,7 @@ export default function Contact() {
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-10">
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-green-500 hover:border hover:border-green-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-green-300 hover:border hover:border-green-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -35,7 +35,7 @@ export default function Contact() {
                   {userData.phone}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-green-500 hover:border hover:border-green-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-green-300 hover:border hover:border-green-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -50,7 +50,7 @@ export default function Contact() {
                   {userData.email}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-green-500 hover:border hover:border-green-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-green-300 hover:border hover:border-green-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

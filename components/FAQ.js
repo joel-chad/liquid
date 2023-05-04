@@ -1,21 +1,13 @@
+import Container from "./Container";
+
 export default function FAQ(){
     return(
-        <section className="relative py-20 overflow-hidden bg-gray-50">
-  <img className="absolute top-0 left-0 mt-44" src="saturn-assets/images/faq/light-blue-left.png" alt=""/>
-  <img className="absolute top-0 right-0 mt-10" src="saturn-assets/images/faq/star-right.svg" alt=""/>
-  <div className="relative container px-4 mx-auto">
-    <div className="max-w-5xl mx-auto">
-      <div className="text-center mb-24">
-        <span className="inline-block py-1 px-3 mb-4 text-xs font-semibold text-orange-900 bg-orange-50 rounded-full">FREQUENTLY ASK QUESTION</span>
-        <h1 className="font-heading text-5xl xs:text-6xl md:text-7xl font-bold text-gray-900">
-          <span>You ask? We</span>
-          <span className="font-serif italic">answer</span>
-        </h1>
-      </div>
-      <div className="pt-18 sm:pt-24 px-8 sm:px-20 pb-18 bg-white rounded-4xl shadow-lg">
+      <Container>
+        <section className="relative py-20 overflow-hidden">
+
         <button className="flex mb-8 pb-8 group w-full items-start justify-between border-b border-gray-100 text-left">
           <div className="max-w-xl pr-5">
-            <h3 className="text-xl font-semibold text-orange-900 mb-3">Do you provide a complete design style?</h3>
+            <h3 className="text-xl font-semibold text-green-900 mb-3">Do you provide a complete design style?</h3>
             <p className="text-lg text-gray-500">Pretium ac auctor quis urna orci feugiat. Vulputate tellus velit tellus orci auctor vel nulla facilisi ut. Ante nunc risus viverra vivamus. Eros amet at lectus ac ac nibh dignissim.</p>
           </div>
           <div className="pt-1">
@@ -28,7 +20,7 @@ export default function FAQ(){
         </button>
         <button className="flex mb-8 pb-8 group w-full items-start justify-between border-b border-gray-100 text-left">
           <div className="max-w-xl pr-5">
-            <h3 className="text-xl font-semibold text-black group-hover:text-orange-900">Do you provide a complete design style?</h3>
+            <h3 className="text-xl font-semibold text-black group-hover:text-green-900">Do you provide a complete design style?</h3>
             <p className="hidden group-hover:block mt-3 text-lg text-gray-500">Pretium ac auctor quis urna orci feugiat. Vulputate tellus velit tellus orci auctor vel nulla facilisi ut. Ante nunc risus viverra vivamus. Eros amet at lectus ac ac nibh dignissim.</p>
           </div>
           <div className="pt-1">
@@ -46,7 +38,7 @@ export default function FAQ(){
         </button>
         <button className="flex mb-8 pb-8 group w-full items-start justify-between border-b border-gray-100 text-left">
           <div className="max-w-xl pr-5">
-            <h3 className="text-xl font-semibold text-black group-hover:text-orange-900">How was the license?</h3>
+            <h3 className="text-xl font-semibold text-black group-hover:text-green-900">How was the license?</h3>
             <p className="hidden group-hover:block mt-3 text-lg text-gray-500">Pretium ac auctor quis urna orci feugiat. Vulputate tellus velit tellus orci auctor vel nulla facilisi ut. Ante nunc risus viverra vivamus. Eros amet at lectus ac ac nibh dignissim.</p>
           </div>
           <div className="pt-1">
@@ -64,7 +56,7 @@ export default function FAQ(){
         </button>
         <button className="flex mb-8 pb-8 group w-full items-start justify-between border-b border-gray-100 text-left">
           <div className="max-w-xl pr-5">
-            <h3 className="text-xl font-semibold text-black group-hover:text-orange-900">How was the license?</h3>
+            <h3 className="text-xl font-semibold text-black group-hover:text-green-900">How was the license?</h3>
             <p className="hidden group-hover:block mt-3 text-lg text-gray-500">Pretium ac auctor quis urna orci feugiat. Vulputate tellus velit tellus orci auctor vel nulla facilisi ut. Ante nunc risus viverra vivamus. Eros amet at lectus ac ac nibh dignissim.</p>
           </div>
           <div className="pt-1">
@@ -82,7 +74,7 @@ export default function FAQ(){
         </button>
         <button className="flex mb-8 pb-8 group w-full items-start justify-between border-b border-gray-100 text-left">
           <div className="max-w-xl pr-5">
-            <h3 className="text-xl font-semibold text-black group-hover:text-orange-900">How much we can buy this marvelous product?</h3>
+            <h3 className="text-xl font-semibold text-black group-hover:text-green-900">How much we can buy this marvelous product?</h3>
             <p className="hidden group-hover:block mt-3 text-lg text-gray-500">Pretium ac auctor quis urna orci feugiat. Vulputate tellus velit tellus orci auctor vel nulla facilisi ut. Ante nunc risus viverra vivamus. Eros amet at lectus ac ac nibh dignissim.</p>
           </div>
           <div className="pt-1">
@@ -100,7 +92,7 @@ export default function FAQ(){
         </button>
         <button className="flex group w-full items-start justify-between text-left">
           <div className="max-w-xl pr-5">
-            <h3 className="text-xl font-semibold text-black group-hover:text-orange-900">Do you have any terms &amp; conditions?</h3>
+            <h3 className="text-xl font-semibold text-black group-hover:text-green-900">Do you have any terms &amp; conditions?</h3>
             <p className="hidden group-hover:block mt-3 text-lg text-gray-500">Pretium ac auctor quis urna orci feugiat. Vulputate tellus velit tellus orci auctor vel nulla facilisi ut. Ante nunc risus viverra vivamus. Eros amet at lectus ac ac nibh dignissim.</p>
           </div>
           <div className="pt-1">
@@ -116,9 +108,7 @@ export default function FAQ(){
             </span>
           </div>
         </button>
-      </div>
-    </div>
-  </div>
 </section>
+</Container>
     )
 }
