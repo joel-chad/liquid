@@ -42,7 +42,7 @@ function Navbar() {
               <Link href="/" className="text-gray-800 text-sm font-semibold hover:text-green-600 mb-1">Home</Link>
               <Link href="/projects" className="text-gray-800 text-sm font-semibold hover:text-green-600 mb-1">Products</Link>
               <Link href="/about" className="text-gray-800 text-sm font-semibold hover:text-green-600 mb-1">About</Link>
-              <a href="#" className="text-gray-800 text-sm font-semibold hover:text-green-600 mb-1">Pricing</a>
+              <a href="/contact" className="text-gray-800 text-sm font-semibold hover:text-green-600 mb-1">Contact</a>
               <div className="flex justify-between items-center border-t-2 pt-2">
                 <Link href="/signin" className="text-gray-800 text-sm font-semibold hover:text-green-600 mr-4">Sign in</Link>
                 <Link href="signup" className="text-gray-800 text-sm font-semibold border px-4 py-1 rounded-lg hover:text-green-600 hover:border-green-600">Sign up</Link>

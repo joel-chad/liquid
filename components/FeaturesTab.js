@@ -4,8 +4,8 @@ import chicken from '../public/chicken.png'
 
 export default function App() {
   return (
-    <section className="relative py-5 overflow-hidden">
-  <div className="container px-4 mx-auto">
+    <section className="relative py-3 lg:py-5 overflow-hidden">
+  <div className="lg:container px-4 mx-auto">
     <div className="max-w-3xl mx-auto text-center">
       <span className="inline-block py-1 px-3 mb-1 text-xs font-semibold text-green-900 bg-orange-50 rounded-full">What we do</span>
       <h2 className="font-heading text-5xl xs:text-6xl md:text-7xl font-bold text-gray-900 mb-24">

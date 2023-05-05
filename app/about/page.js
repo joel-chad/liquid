@@ -23,7 +23,7 @@ export default function Home() {
       </div>
         <PreviewCard/>
           
-            <div className=' px-32 lg:px-44'>
+            <div className='lg:px-44'>
             <SectionTitle
         pretitle="FAQ"
         title="Frequently Asked Questions">

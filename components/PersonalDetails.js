@@ -2,7 +2,7 @@
 
 export default function PersonalDetails() {
     return (
-      <main className="flex flex-col w-2/4 bg-white rounded-tl-md rounded-br-md shadow-md justify-center lg:p-10">
+      <main className="flex flex-col w-4/5 py-4 lg:w-2/4 bg-white rounded-tl-md rounded-br-md shadow-md justify-center lg:p-10">
         {/* <h1 className=''>Personal Details</h1> */}
         {/* <label htmlFor="name">First Name</label> */}
         <h3 className="font-semibold text-center py-3">Personal Details</h3>

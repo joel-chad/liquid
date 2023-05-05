@@ -15,8 +15,8 @@ export default function PreviewCard(){
          Molestias sit dicta minus quaerat commodi laborum debitis.
       </SectionTitle>
             <div className="md:max-w-6xl mx-auto">
-              <div className="flex -m-3.5 mb-10">
-                <div className="w-full md:w-1/3 p-3.5">
+              <div className="flex flex-wrap -m-3.5 mb-4">
+                <div className="w- md:w-1/3 p-3.5">
                   <a href="#">
                     <div className="relative p-6 h-full bg-white border hover:border-gray-300 rounded-xl">
                       <img className="absolute left-0 top-0" src="flaro-assets/images/career/gradient.svg" alt=""/>
@@ -35,7 +35,7 @@ export default function PreviewCard(){
                     </div>
                   </a>
                 </div>
-                <div className="w-full md:w-1/3 p-3.5">
+                <div className="w- md:w-1/3 p-3.5">
                   <a href="#">
                     <div className="relative p-6 h-full bg-white border hover:border-gray-300 rounded-xl">
                       <img className="absolute left-0 top-0" src="flaro-assets/images/career/gradient.svg" alt=""/>
@@ -55,7 +55,7 @@ export default function PreviewCard(){
                     </div>
                   </a>
                 </div>
-                <div className="w-full md:w-1/3 p-3.5">
+                <div className="w- md:w-1/3 p-3.5">
                   <a href="#">
                     <div className="relative p-6 h-full bg-white border hover:border-gray-300 rounded-xl">
                       <img className="absolute left-0 top-0" src="flaro-assets/images/career/gradient.svg" alt=""/>

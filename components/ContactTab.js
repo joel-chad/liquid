@@ -15,8 +15,8 @@ export default function ContactTab(){
             </h1>
             <p className="text-xl text-gray-500 font-semibold">Relax, we are ready to support 24/7 for you</p>
           </div>
-          <div className="flex justify-center -mx-4">
-            <div className="w-full md:w-1/2 lg:w-auto px-4 xl:px-10 mb-10 md:mb-0">
+          <div className="flex flex-wrap justify-center -mx-4">
+            <div className="lg:w-4/5 md:w-full lg:w-auto px-4 xl:px-10 mb-10 md:mb-0">
               <div className="max-w-sm mx-auto h-full py-8 px-6 bg-white border border-gray-200 rounded-5xl">
                 <div className="max-w-2xs mx-auto text-center">
                   <img className="block mx-auto mb-3" src="saturn-assets/images/contact/icon-green-email.svg" alt=""/>
@@ -37,7 +37,7 @@ export default function ContactTab(){
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2 lg:w-auto px-4 xl:px-10">
+            <div className="lg:w-4/5 md:w-full lg:w-auto px-4 xl:px-10">
               <div className="max-w-sm mx-auto h-full py-8 px-6 bg-white border border-gray-200 rounded-5xl">
                 <div className="max-w-2xs mx-auto text-center">
                   <img className="block mx-auto mb-3" src="saturn-assets/images/contact/icon-green-headphones.svg" alt=""/>
