@@ -27,7 +27,7 @@ function Navbar() {
     
             <div className="hidden sm:flex sm:items-center">
               <Link href="/signin" className="text-gray-800 text-sm font-semibold hover:text-green-600 mr-4">Sign in</Link>
-              <Link href="/signup" className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-green-600 hover:border-green-600">Register</Link>
+              <Link href="/register" className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-green-600 hover:border-green-600">Register</Link>
             </div>
     
             <div className="sm:hidden cursor-pointer">
@@ -45,7 +45,7 @@ function Navbar() {
               <a href="/contact" className="text-gray-800 text-sm font-semibold hover:text-green-600 mb-1">Contact</a>
               <div className="flex justify-between items-center border-t-2 pt-2">
                 <Link href="/signin" className="text-gray-800 text-sm font-semibold hover:text-green-600 mr-4">Sign in</Link>
-                <Link href="signup" className="text-gray-800 text-sm font-semibold border px-4 py-1 rounded-lg hover:text-green-600 hover:border-green-600">Sign up</Link>
+                <Link href="register" className="text-gray-800 text-sm font-semibold border px-4 py-1 rounded-lg hover:text-green-600 hover:border-green-600">Sign up</Link>
               </div>
             </div>
           </div>
