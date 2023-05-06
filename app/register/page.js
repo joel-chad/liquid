@@ -4,7 +4,7 @@ import RegisterPage from "@/components/RegisterPage"
 
 export default function Register(){
     return(
-        <div className='min-h-screen items-center justify-center'>
+        <div className='p-24'>
             <RegisterPage/>
         </div>
        
