@@ -1,9 +1,11 @@
 'use client'
 
+import RegisterPage from "@/components/RegisterPage"
+
 export default function Register(){
     return(
-        <div className='flex min-h-screen items-center justify-center'>
-            Register
+        <div className='min-h-screen items-center justify-center'>
+            <RegisterPage/>
         </div>
        
     )
