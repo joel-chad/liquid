@@ -15,7 +15,7 @@ export default function SignUp() {
           <>
           <PersonalDetails/> 
           <div className="flex p-2 lg:w-4/5 flex-row items-stretch justify-end">
-            <button className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-green-600 hover:border-green-600" onClick={()=>setStep(2)}>Next</button>
+            <button className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-[#00A651] hover:border-green-600" onClick={()=>setStep(2)}>Next</button>
           </div>
           <PopupWidget/>
           </>
@@ -28,8 +28,8 @@ export default function SignUp() {
         <>
         <OtherDetails/> 
         <div className="flex p-2 w-full lg:w-4/5 flex-row items-stretch justify-between">
-          <button className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-green-600 hover:border-green-600"onClick={()=>setStep(1)}>Back</button>
-          <button className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-green-600 hover:border-green-600" onClick={()=>setStep(2)}>Next</button>
+          <button className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-[#00A651] hover:border-green-600"onClick={()=>setStep(1)}>Back</button>
+          <button className="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-[#00A651] hover:border-green-600" onClick={()=>setStep(2)}>Next</button>
         </div>
         </>
         <PopupWidget/>

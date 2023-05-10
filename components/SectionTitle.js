@@ -8,7 +8,7 @@ const SectionTitle = (props) => {
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}>
       {props.pretitle && (
-        <span className="inline-block px-3  text-xs font-semibold text-green-900 bg-green-50 rounded-full">
+        <span className={`inline-block px-3  text-xs font-semibold  bg-green-50 rounded-full`}>
           {props.pretitle}
         </span>
       )}
@@ -20,7 +20,7 @@ const SectionTitle = (props) => {
       )}
 
       {props.children && (
-        <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+        <p className={`max-w-2xl py-4 text-lg leading-normal ${props.text =="white"? "text-white": "text-gray-500"} lg:text-xl xl:text-xl dark:text-gray-300`}>
           {props.children}
         </p>
       )}

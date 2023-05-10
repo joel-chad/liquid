@@ -52,7 +52,7 @@ const PopupWidget = () => {
       <Disclosure>
         {({ open }) => (
           <>
-            <Disclosure.Button className="fixed z-40 flex items-center justify-center transition duration-300 bg-green-500 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-green-600 focus:bg-green-600 ease">
+            <Disclosure.Button className="fixed z-40 flex items-center justify-center transition duration-300 bg-[#00A651] rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-[#AF1800] focus:bg-[#00A651] ease">
               <span className="sr-only">Open Contact form Widget</span>
               <Transition
                 show={!open}
@@ -106,13 +106,13 @@ const PopupWidget = () => {
               leave="transition duration-200 transform ease"
               leaveTo="opacity-0 translate-y-5">
               <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
-                <div className="flex flex-col items-center justify-center h-32 p-5 bg-green-600">
+                <div className="flex flex-col items-center justify-center h-32 p-5 bg-[#00A651]">
                   <h3 className="text-lg text-white">How can we help?</h3>
                   <p className="text-white opacity-50">
                     We usually respond in a few hours
                   </p>
                 </div>
-                <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
+                <div className="flex-grow p-6 overflow-auto bg-gray-50 ">
                   {!isSubmitSuccessful && (
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
@@ -223,7 +223,7 @@ const PopupWidget = () => {
                       <div className="mb-3">
                         <button
                           type="submit"
-                          className="w-full px-3 py-4 text-white bg-green-500 rounded-md focus:bg-green-600 focus:outline-none">
+                          className="w-full px-3 py-4 text-white bg-[#00A651] rounded-md focus:bg-[#00A651] focus:outline-none">
                           {isSubmitting ? (
                             <svg
                               className="w-5 h-5 mx-auto text-white animate-spin"
@@ -280,7 +280,7 @@ const PopupWidget = () => {
                             strokeWidth="3"
                           />
                         </svg>
-                        <h3 className="py-5 text-xl text-green-500">
+                        <h3 className="py-5 text-xl text-[#00A651]">
                           Message sent successfully
                         </h3>
                         <p className="text-gray-700 md:px-3">{Message}</p>

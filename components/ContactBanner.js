@@ -10,7 +10,7 @@ import Link from "next/link";
     return (
       <section className="py-8">
         <div className="container px-4 mx-auto">
-          <div className="px-7 py-6 bg-green-500 rounded">
+          <div className="px-7 py-6 bg-[#00A651] rounded">
             <div className="flex flex-">
               <div className="w-full md:w-1/2 pt-6 mb-10 md:mb-0">
                 <h3 className="mb-1 text-2xl font-bold text-white">

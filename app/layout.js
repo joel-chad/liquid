@@ -1,11 +1,11 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Montserrat, Raleway } from 'next/font/google'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import "tw-elements/dist/css/tw-elements.min.css";
 
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'App',
