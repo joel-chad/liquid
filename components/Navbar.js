@@ -22,7 +22,7 @@ function Navbar() {
             <Link href="/" className="text-gray-800 items-center pr-3 text-sm font-semibold hover:text-[#00A651]">Home</Link>
               <Link href="/projects" className="text-gray-800 pr-3 text-sm font-semibold hover:text-[#00A651]">Products</Link>
               <Link href="/about" className="text-gray-800 pr-3 text-sm font-semibold hover:text-[#00A651]">About</Link>
-              <Link href="/how" className="text-gray-800 pr-3 text-sm font-semibold hover:text-[#00A651]">How To</Link>
+              <Link href="/how" className="text-gray-800 pr-3 text-sm font-semibold hover:text-[#00A651]">Plans</Link>
               <Link href="/contact" className="text-gray-800 text-sm font-semibold hover:text-[#00A651]">Contact</Link>
             </div>
     
@@ -43,7 +43,7 @@ function Navbar() {
               <Link href="/" className="text-gray-800 text-sm font-semibold hover:text-[#00A651] mb-1">Home</Link>
               <Link href="/projects" className="text-gray-800 text-sm font-semibold hover:text-[#00A651] mb-1">Products</Link>
               <Link href="/about" className="text-gray-800 text-sm font-semibold hover:text-[#00A651] mb-1">About</Link>
-              <Link href="/how" className="text-gray-800 text-sm font-semibold hover:text-[#00A651] mb-1">How To</Link>
+              <Link href="/how" className="text-gray-800 text-sm font-semibold hover:text-[#00A651] mb-1">Plans</Link>
               <Link href="/contact" className="text-gray-800 text-sm font-semibold hover:text-[#00A651] mb-1">Contact</Link>
               <div className="flex justify-between items-center border-t-2 pt-2">
                 <Link href="/signin" className="text-gray-800 text-sm font-semibold hover:text-[#00A651] mr-4">Sign in</Link>

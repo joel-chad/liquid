@@ -21,15 +21,7 @@ function HowTo() {
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 63"><path d="M800,0H0V6.35A1552.85,1552.85,0,0,0,401,59,1553.47,1553.47,0,0,0,800,6.89Z" fill="#92D050"/></svg>      
             <Pricing/>
-            <TimeLine
-                terms={instructions.terms}
-                instruction={instructions.instruction}
-                options={instructions.options}
-                benefits={instructions.benefits}
-                information={instructions.information}
-                title={instructions.title}
-                pretitle={instructions.pretitle}
-             />
+            
         </main>
      );
 }
