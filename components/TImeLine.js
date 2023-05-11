@@ -13,7 +13,7 @@ function TimeLine(props) {
             <div className="max-w-xl mx-auto">
                 <div className="text-center ">
                     <div className="relative flex flex-col items-center">
-                        <h1 className="text-6xl font-bold leading-tight dark:text-gray-300"> Timeline
+                        <h1 className="text-6xl font-bold leading-tight dark:text-gray-300"> Steps
                         </h1>
                         <div className="flex w-24 mt-1 mb-10 overflow-hidden rounded">
                             <div className="flex-1 h-2 bg-[#00A651]">
