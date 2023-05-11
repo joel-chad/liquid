@@ -18,7 +18,7 @@ export default function App() {
       <Carousel/>
       <SectionTitle
         pretitle="Welcome"
-        title="GreenSales Investments">
+        title="Zihuku Chicken Rearing Program">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Voluptatem omnis, veniam quia numquam, animi sapiente,
           voluptate placeat tempore odit non asperiores itaque?

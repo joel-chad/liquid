@@ -11,7 +11,7 @@ export default function Home() {
       <div className='bg-[#92D050] p-12'>
       <SectionTitle
         pretitle="About"
-        title="GreenSales Investments"
+        title="Zihuku Chicken Rearing Program"
         text='white'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Voluptatem omnis, veniam quia numquam, animi sapiente,

@@ -22,8 +22,8 @@ export default function App() {
                 <img src="saturn-assets/images/features/icon-element.svg" alt=""/>
               </div>
               <div>
-                <h3 className="text-xl font-semibold">Simple &amp; Unique</h3>
-                <span className="text-sm text-gray-400">Created by our talented designer</span>
+                <h3 className="text-xl font-semibold">Training</h3>
+                <span className="text-sm text-gray-600">We train on the best practices of chicken rearing</span>
               </div>
             </div>
             <div className="flex items-center border pb-6 mb-6 border-b border-gray-100">
@@ -31,8 +31,8 @@ export default function App() {
                 <img src="saturn-assets/images/features/icon-hierarchy.svg" alt=""/>
               </div>
               <div>
-                <h3 className="text-xl font-semibold">Layered &amp; Well Documented</h3>
-                <span className="text-sm text-gray-400">The best layer organization</span>
+                <h3 className="text-xl font-semibold">Inputs</h3>
+                <span className="text-sm text-gray-600">Be part of the ZIHUKU CHICKEN REARING PROGRAM and receive chicks and feed</span>
               </div>
             </div>
             <div className="flex items-center">
@@ -40,8 +40,8 @@ export default function App() {
                 <img src="saturn-assets/images/features/icon-school-bag.svg" alt=""/>
               </div>
               <div>
-                <h3 className="text-xl font-semibold">World className UI Design</h3>
-                <span className="text-sm text-gray-400">We are not tolerant about taste</span>
+                <h3 className="text-xl font-semibold">Assistance</h3>
+                <span className="text-sm text-gray-600">Get a dedicated extension officer for support during a project.</span>
               </div>
             </div>
           </div>
@@ -56,8 +56,8 @@ export default function App() {
                 <img src="saturn-assets/images/features/icon-robot.svg" alt=""/>
               </div>
               <div>
-                <h3 className="text-xl font-semibold">Mobile Friendly</h3>
-                <span className="text-sm text-gray-400">We create responsive website</span>
+                <h3 className="text-xl font-semibold">Entity</h3>
+                <span className="text-sm text-gray-600">Register your shop as an agent and earn money</span>
               </div>
             </div>
             <div className="flex items-center pb-6 mb-6 border-b border-gray-100">
@@ -65,8 +65,8 @@ export default function App() {
                 <img src="saturn-assets/images/features/icon-cam.svg" alt=""/>
               </div>
               <div>
-                <h3 className="text-xl font-semibold">Complete Style Guide</h3>
-                <span className="text-sm text-gray-400">The design will be centralized</span>
+                <h3 className="text-xl font-semibold">Agency</h3>
+                <span className="text-sm text-gray-600">Become an expert and become a ZIHUKU REARING PROGRAM agent</span>
               </div>
             </div>
             <div className="flex items-center">
@@ -75,7 +75,7 @@ export default function App() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold">Unlimited Support</h3>
-                <span className="text-sm text-gray-400">No worries, we are here to support</span>
+                <span className="text-sm text-gray-600">No worries, we are here to support</span>
               </div>
             </div>
           </div>
